@@ -18,7 +18,7 @@ Our objectives are mostly set based on the craving need for assistance and prope
 - An Alternative to Post or calls for search of Blood.
 
 
-2. Software Requirements:
+### Software Requirements:
 IDE: Intellij IDEA Ultimate
 	Version: 2020.3.1
 	Download Link: https://www.jetbrains.com/idea/download/#section=windows
@@ -38,9 +38,9 @@ Version: 2.4.1
 
 
 
-3. Description of the Functionalities:
+### Description of the Functionalities:
 
-Functionalities:
+### Functionalities:
 
 
 Authentication System: Authentication includes sign up and sign-in of the users (including the Admin). All the users should be registered with a unique email id, Phone number (for also proper validation)with which authentication will be recognized and the admin will have a unique email to sign in.
@@ -63,26 +63,14 @@ Home Page: Some Basic information will be available to assist and guide the user
 
 
 
-UML Diagram:
-
-
-
-Figure-01: Sequence Diagram
 
 
 
 
+### Web Engineering Model:
 
 
-
- 4. Web Engineering Model:
-
-Web Architecture Diagram:
-
-Figure-02: Model-2 Architecture with respect to MVC Structure
-
-
-Model 2 architecture:
+### Model 2 architecture:
 JSP Model 2 is a complex design pattern used in the design of Java Web applications which separates the display of content from the logic used to obtain and manipulate the content. Since Model 2 drives a separation between logic and display, it is usually associated with the model–view–controller (MVC) paradigm. While the exact form of the MVC "Model" was never specified by the Model 2 design, several publications recommend a formalized layer to contain MVC Model code. The Java BluePrints, for example, originally recommended using EJBs to encapsulate the MVC Model.
 In a Model 2 application, requests from the client browser are passed to the controller. The controller performs any logic necessary to obtain the correct content for display. It then places the content in the request (commonly in the form of a JavaBean or POJO) and decides which view it will pass the request to. The view then renders the content passed by the controller. Model 2 is recommended for medium- and large-sized applications.
 
@@ -109,9 +97,6 @@ Testing: support classes for writing unit tests and integration tests
 
 
 
-Figure-03: Spring Framework Architecture concerning  MVC Structure
-
-
 
 Design pattern used with diagram (Front controller, Session Façade pattern, DAO, etc.): 
 Front Controller: Front controller basically handles all the requests to a web application. As we developed our web application using Spring MVC framework, DispatcherServlet is the front controller in our system which will handle all the requests to our web application. 
@@ -122,7 +107,7 @@ Data Access Object (DAO): It is a structural pattern that allows us to isolate t
 
 
 
-5. Technologies used in different tier:
+### Technologies used in different tier:
 
 Application tier: The heart of any application which acts as a middle tier. In this tier, information collected in the presentation tier is processed - sometimes against other information in the data tier - using business logic, a specific set of business rules. The application tier can also add, delete, or modify data in the data tier.
 
@@ -141,7 +126,7 @@ Database tier: In this tier information are stored and managed appropriately.
 
 Technology: MySQL
 
-6. Conclusion and future work:
+### Conclusion and future work:
 
 Achievements from this final project: 
    We have gained an elaborate knowledge about the structure of OOP and how it is used in web application. The project increases our understanding about the Spring framework, one of the most structured and powerful frameworks for web development. Moreover, we have worked as a team in this project. This increases our skills of team working. We understood how to merge different layers of work together.
