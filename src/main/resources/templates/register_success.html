@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <title>Cypher Blood Bank </title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<section id="nav-bar"><nav class="navbar navbar-expand-lg navbar-light ">
+
+    <a class="navbar-brand" href="#"><img src="/img/logo1.jpg"> Donate Blood, Save Life  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active" href="#top" target="_blank">Home</a>
+            <a class="nav-item nav-link active" href="#about" >About Us!</a>
+            <a class="nav-item nav-link" th:href="@{/list_members}">Members</a>
+            <a class="nav-item nav-link " th:href="@{/register}">Register!</a>
+            <a class="nav-item nav-link " th:href="@{/login}">Login</a>
+        </div>
+
+
+    </div>
+    </div>
+</nav>
+</section>
+<!--Navbar End-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container text-center">
+    <div>
+        <h1>You have signed up succesfully!</h1>
+        <h4><a th:href="@{/login}">Click Here for login</a></h4>
+    </div>
+</div>
+
+<!--footer----->
+<section id="footer">
+    <div class="container text-center">
+        <p>Made by TEAM CYPHER <i class="fa fa-gratipay"></i> </p>
+    </div>
+</section>
+<!--footer end----->
+
+</body>
+</html>
